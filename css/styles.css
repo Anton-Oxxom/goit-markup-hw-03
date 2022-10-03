@@ -78,6 +78,22 @@ body{
     text-transform: uppercase;
 }
 
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-order {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+}
+
 .board {
     background-color: #2F303A;;
 }
@@ -132,26 +148,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-.button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    
-}
 
-.button-order {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    
-}
 
 /*Footter*/
  
@@ -179,14 +176,14 @@ body{
 }
 
 /* Portfolio */
-.button-portfolio {
+.button-portfolio .link {
     color: var(--title-text-color);
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    cursor: pointer;
+    padding: 6px 22px;
+   
 }
 
 .button-portfolio .link:hover,
