@@ -35,6 +35,8 @@ ol {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
@@ -70,6 +72,7 @@ body{
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
    }
 
    .site-nav .item + .item{
@@ -105,9 +108,22 @@ body{
 
 .site-contact-head {
     display: flex;
+    margin-left: auto; 
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-contact-head .item + .item {
+    margin-left: 50px;
 }
 
 .site-contact-head .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -122,17 +138,20 @@ body{
 }
 
 /* board */
+.board {
+    background-color: #2F303A;
+    text-align: center;
+}
+
 .board-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    
+    text-transform: uppercase; 
 }
 
 .btn {
@@ -149,11 +168,7 @@ body{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     padding: 10px 32px;
-}
-
-.board {
-    background-color: #2F303A;
-   }
+    }
 
 /* Section */
 
@@ -174,13 +189,23 @@ body{
 }
 
 /* About */
+.about-list {
+    display: flex;
+    
+}
+
+.about-list .item + .item {
+    margin-left: 30px;
+}
+
+
+
 .about-list .title {
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-
 }
 
 .about-list .text {
@@ -188,12 +213,34 @@ body{
     line-height: 1.71;
 }
 
+/*Work */
+
+.work-list {
+    padding-top: 0px;
+    display: flex;
+
+}
+
+.work-list .item + .item {
+    margin-left: 30px;
+}
+
 /* Team */
 .team {
     background-color: #F5F4FA;;
 }
 
+.team-list {
+    display: flex;
+}
+
+.team-list .item + .item {
+    margin-left: 30px;
+}
+
 .team-list .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -251,6 +298,8 @@ body{
 }
 
 .portfolio-list .title {
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -261,6 +310,21 @@ body{
 .portfolio-list .text {
     line-height: 1.87;
     letter-spacing: 0.03em;
+}
+
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-list .item {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.portfolio-list .item:nth-child(3n) {
+    margin-right: 0px;
 }
 
 .footer {
