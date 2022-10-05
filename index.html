@@ -21,13 +21,15 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="container main-nav">
-        <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link current">Студія</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li class="item"><a href="" class="link">Контакти</a></li>
-        </ul>
+      <div class="container main-nav">
+        <nav class="nav-centr">
+          <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
 
         <ul class="site-contact-head list">
           <li class="item">
@@ -35,7 +37,7 @@
           </li>
           <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
       <!--Board-->
@@ -82,7 +84,7 @@
       </section>
 
       <!--Work-->
-      <section class="section work-list">
+      <section class="section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-list list">
@@ -106,23 +108,31 @@
           <ul class="team-list list">
             <li class="item">
               <img src="./images/team1.jpg" alt="Ігор Дем'яненко - Product Designer" width="270" />
-              <h3 class="title">Ігор Дем'яненко</h3>
-              <p class="text">Product Designer</p>
+              <div class="team-description">
+                <h3 class="title">Ігор Дем'яненко</h3>
+                <p class="text">Product Designer</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/team2.jpg" alt="Ольга Рєпіна - Frontend Developer" width="270" />
-              <h3 class="title">Ольга Рєпіна</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="team-description">
+                <h3 class="title">Ольга Рєпіна</h3>
+                <p class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/team3.jpg" alt="Микола Тарасов - Marketing" width="270" />
-              <h3 class="title">Микола Тарасов</h3>
-              <p class="text">Marketing</p>
+              <div class="team-description">
+                <h3 class="title">Микола Тарасов</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/team4.jpg" alt="Михайло Єрмаков - UI Designer" width="270" />
-              <h3 class="title">Михайло Єрмаков</h3>
-              <p class="text">UI Designer</p>
+              <div class="team-description">
+                <h3 class="title">Михайло Єрмаков</h3>
+                <p class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -132,7 +142,9 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
+        <a href="./index.html" class="logo-footer"
+          >Web<span class="logo-footer-span">Studio</span></a
+        >
         <address class="adress">
           <ul class="footer-nav list">
             <li class="site-adress-footer item">

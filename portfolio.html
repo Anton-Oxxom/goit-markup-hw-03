@@ -21,13 +21,16 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="container main-nav">
-        <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link">Студія</a></li>
-          <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-          <li class="item"><a href="" class="link">Контакти</a></li>
-        </ul>
+      <div class="container"></div>
+      <div class="container main-nav">
+        <nav class="nav-centr">
+          <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+        </nav>
 
         <ul class="site-contact-head list">
           <li class="item">
@@ -35,30 +38,31 @@
           </li>
           <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
-      <!--Button-->
-      <div class="container">
-        <ul class="button-portfolio filtr-nav list">
-          <li class="item"><button type="button" class="btn link">Усі</button></li>
-          <li class="item"><button type="button" class="btn link">Веб-сайти</button></li>
-          <li class="item"><button type="button" class="btn link">Додатки</button></li>
-          <li class="item"><button type="button" class="btn link">Дизайн</button></li>
-          <li class="item"><button type="button" class="btn link">Маркетинг</button></li>
-        </ul>
-      </div>
-
-      <!--Portfolio-->
       <section class="section">
         <div class="container">
+          <!--Button-->
+          <ul class="button-portfolio filtr-nav list">
+            <li class="item"><button type="button" class="btn link">Усі</button></li>
+            <li class="item"><button type="button" class="btn link">Веб-сайти</button></li>
+            <li class="item"><button type="button" class="btn link">Додатки</button></li>
+            <li class="item"><button type="button" class="btn link">Дизайн</button></li>
+            <li class="item"><button type="button" class="btn link">Маркетинг</button></li>
+          </ul>
+
+          <!--Portfolio-->
+
           <!--видалити заголовок в css-->
           <h1 class="section-title portfolio">Портфолио</h1>
           <ul class="portfolio-list list">
             <li class="item">
               <img src="./images/work1.jpg" alt="Веб-сайт - Технокряк" width="370" />
-              <h2 class="title">Технокряк</h2>
-              <p class="text">Веб-сайт</p>
+              <div class="portfolio-description">
+                <h2 class="title">Технокряк</h2>
+                <p class="text">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -66,23 +70,31 @@
                 alt="Дизайн - Постер New Orlean vs Golden Star"
                 width="370"
               />
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="text">Дизайн</p>
+              <div class="portfolio-description">
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="text">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work3.jpg" alt="Додаток - Ресторан Seafood" width="370" />
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="text">Додаток</p>
+              <div class="portfolio-description">
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="text">Додаток</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work4.jpg" alt="Маркетинг - Проєкт Prime" width="370" />
-              <h2 class="title">Проєкт Prime</h2>
-              <p class="text">Маркетинг</p>
+              <div class="portfolio-description">
+                <h2 class="title">Проєкт Prime</h2>
+                <p class="text">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work5.jpg" alt="Додаток - Проєкт Boxes" width="370" />
-              <h2 class="title">Проєкт Boxes</h2>
-              <p class="text">Додаток</p>
+              <div class="portfolio-description">
+                <h2 class="title">Проєкт Boxes</h2>
+                <p class="text">Додаток</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -90,23 +102,31 @@
                 alt="Веб-сайт - Inspiration has no Borders"
                 width="370"
               />
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="text">Веб-сайт</p>
+              <div class="portfolio-description">
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="text">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work7.jpg" alt="Дизайн - Видання Limited Edition" width="370" />
-              <h2 class="title">Видання Limited Edition</h2>
-              <p class="text">Дизайн</p>
+              <div class="portfolio-description">
+                <h2 class="title">Видання Limited Edition</h2>
+                <p class="text">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work8.jpg" alt="Маркетинг - Проєкт LAB" width="370" />
-              <h2 class="title">Проєкт LAB</h2>
-              <p class="text">Маркетинг</p>
+              <div class="portfolio-description">
+                <h2 class="title">Проєкт LAB</h2>
+                <p class="text">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/work9.jpg" alt="Додаток - Growing Business" width="370" />
-              <h2 class="title">Growing Business</h2>
-              <p class="text">Додаток</p>
+              <div class="portfolio-description">
+                <h2 class="title">Growing Business</h2>
+                <p class="text">Додаток</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -115,7 +135,9 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
+        <a href="./index.html" class="logo-footer"
+          >Web<span class="logo-footer-span">Studio</span></a
+        >
         <address class="adress">
           <ul class="footer-nav list">
             <li class="site-adress-footer item">
